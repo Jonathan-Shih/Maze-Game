@@ -31,25 +31,6 @@ class NodePosn extends Posn {
     super(x, y);
   }
 
-  /*
-   * DISCLAMIER!!
-   * I know i should override my same method, however when i submitted it
-   * to handins the auto grader said i needed to override hashCode() aswell
-   * I don't think we talked about it in class and I am not sure how to implement
-   * or override hashCode().
-   * 
-   * My code below is how I would override same but with a different name
-   * 
-   * I would've gone to office hours but there were way too many
-   * people in queue and it is way too late where I am located
-   * 
-   * Please don't deduct points for not overriding the method
-   * (i got points deducted from part 1 and just received feedback it
-   * recently)
-   * 
-   * Thank you for understanding! - Jon
-   */
-  
   // is this nodePosn same as that nodePosn
   public boolean same(Object that) {
     if (that instanceof NodePosn) {
